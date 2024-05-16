@@ -1,5 +1,9 @@
 # Project Outline
 
+# Freshness
+
+Latest Data Extraction: April 5, 2024
+
 # The Numbers
 
 - 121775 scraped regulated entities.
@@ -71,6 +75,23 @@ EX:`RN111577540_170526_12-8-2023_1712015282.pdf`
 
 MAERT are extracted via the following schema.
 
+The [PDF Plumber iPython Notebook](texas_air/table_extraction/pdf_plumber.ipynb) is used to extract tables from the pdfs.
+
+Using two strategies
+
+- extract_table()
+- custom formatter at [tricky_tables.py](texas_air/table_extraction/tricky_tables.py)
+
 The final file lives at `data/final.csv`
 
+## Sample Table
+
 ![Sample Table](assets/table.png)
+
+# Document Statistics
+
+Extraction strategies were successful in documents spanning over all years.
+
+Starting in 1992, friendly formatted PDFs appeared (under category easy). It seems that wide adoption of friendly formatted PDFs unfortunately didn't persist.
+
+![Sample Table](assets/doc.png)
