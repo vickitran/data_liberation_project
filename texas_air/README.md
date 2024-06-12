@@ -94,4 +94,7 @@ Extraction strategies were successful in documents spanning over all years.
 
 Starting in 1992, friendly formatted PDFs appeared (under category easy). It seems that wide adoption of friendly formatted PDFs unfortunately didn't persist.
 
+Easy Tables + Tricky Tables were extracted.
+Unknown Tables were not possible to extract.
+
 ![Sample Table](assets/doc.png)
